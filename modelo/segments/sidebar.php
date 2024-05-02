@@ -54,7 +54,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Gestión MIPER+C:</h6>
                         <a class="collapse-item" href="ver-miper.php">MIPER+C Generadas</a>
-                        <a class="collapse-item" href="registrar-miper.php">Generar MIPER+C</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-miper.php';"> Generar MIPER+C</a>
                     </div>
                 </div>
             </li>
@@ -68,8 +68,8 @@
                 <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Nuevo colaborador</h6>
-                        <a class="collapse-item" href="ver-colaborador.php">Ver Colaboradores</a>
-                        <a class="collapse-item" href="registrar-colaborador.php">Nuevo colaborador</a>
+                        <a class="collapse-item" href="ver-colaborador.php" >Ver Colaboradores</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-colaborador.php';"> Nuevo colaborador</a>
                     </div>
                 </div>
             </li>
@@ -84,7 +84,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Desarollo Laboral</h6>
                         <a class="collapse-item" href="ver-cargos.php">Ver Cargos</a>
-                        <a class="collapse-item" href="registrar-cargo.php">Crea nuevo Cargo</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-cargo.php';">Crea nuevo Cargo</a>
                     </div>
                 </div>
             </li>
@@ -98,8 +98,8 @@
                 <div id="collapse5" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Gestión de Incidentes </h6>
-                        <a class="collapse-item" href="registrar-incidente.php">Nuevo Incidente</a>
                         <a class="collapse-item" href="ver-incidentes.php">Ver Investigaciones</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-incidente.php';">Nuevo Incidente</a>
                     </div>
                 </div>
             </li>
@@ -113,8 +113,8 @@
                 <div id="collapse6" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Gestión de Terreno</h6>
-                        <a class="collapse-item" href="registrar-gestion.php">Realiza tu check list</a>
                         <a class="collapse-item" href="ver-gestion.php">Ver Gestión</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-gestion.php';">Realiza tu check list</a>
                     </div>
                 </div>
             </li>
@@ -128,10 +128,10 @@
                 <div id="collapse7" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Gestión Estadística</h6>
-                        <a class="collapse-item" href="registrar-estadistica-quincenal.php">Estadística Quincenal</a>
-                        <a class="collapse-item" href="registrar-estadistica-mensual.php">Estadística Mensual</a>
-                        <a class="collapse-item" href="registrar-estadistica-anual.php">Estadística Anual</a>
                         <a class="collapse-item" href="ver-estadistica.php">Ver Mis Estadísticas</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-estadistica-quincenal.php';">Estadística Quincenal</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-estadistica-mensual.php';">Estadística Mensual</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-estadistica-anual.php';">Estadística Anual</a>
                     </div>
                 </div>
             </li>
@@ -145,8 +145,8 @@
                 <div id="collapse8" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Entrenamiento</h6>
-                        <a class="collapse-item" href="registrar-capacitacion.php">Agendar Capacitación</a>
                         <a class="collapse-item" href="ver-capacitacion.php">Ver Capacitaciones</a>
+                        <a class="collapse-item" onclick="window.location.href = 'registrar-capacitacion.php';">Agendar Capacitación</a>
                     </div>
                 </div>
             </li>
